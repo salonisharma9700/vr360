@@ -1,0 +1,107 @@
+{
+  "default": {
+    "firstSceneId": 1
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "IFS Blocks",
+      "panorama": "panorama/pano-4.jpg",
+      "hotSpots": [
+        {
+          "type": "scene",
+          "sceneId": 2,
+          "right": 1500,
+          "top": 1200,
+          "text": "Open IFS -1 Room"
+        },
+        {
+          "type": "scene",
+          "sceneId": 3,
+          "left": 3120,
+          "top": 1200,
+          "text": "Way to IFS -2 Room"
+        },
+        {
+          "type": "scene",
+          "sceneId": 4,
+          "left": 4320,
+          "top": 1000,
+          "text": "BalCony Room"
+        },
+        {
+          "type": "info",
+          "left": 1100,
+          "top": 1200,
+          "text": "Dust Bin"
+        },
+        {
+          "type": "title",
+          "left": 1900,
+          "top": 1000,
+          "text": "Welcome to IFS Block"
+        }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "IFS Room-1",
+      "panorama": "panorama/ifs1room.jpg",
+      "hotSpots": [
+        {
+          "type": "scene",
+          "sceneId": 1,
+          "left": 3500,
+          "top": 1000,
+          "text": "Go to Main"
+        },
+        {
+          "type": "title",
+          "left": 500,
+          "top": 1000,
+          "text": "IFS Room-1"
+        }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "Room3",
+      "panorama": "panorama/ifs2room.jpg",
+      "hotSpots": [
+        {
+          "type": "scene",
+          "sceneId": 1,
+          "left": 4350,
+          "top": 1120,
+          "text": "Go to Main"
+        },
+        {
+          "type": "title",
+          "left": 1500,
+          "top": 1000,
+          "text": "IFS Room-2"
+        }
+      ]
+    },
+    {
+      "sceneId": 4,
+      "title": "Room4",
+      "panorama": "panorama/balcony.jpeg",
+      "hotSpots": [
+        {
+          "type": "scene",
+          "sceneId": 1,
+          "left": 4350,
+          "top": 1120,
+          "text": "Go to Main"
+        },
+        {
+          "type": "title",
+          "left": 1500,
+          "top": 1000,
+          "text": "BALCONY"
+        }
+      ]
+    }
+  ]
+}
